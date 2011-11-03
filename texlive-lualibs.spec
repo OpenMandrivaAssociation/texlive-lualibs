@@ -1,3 +1,9 @@
+# revision 21149
+# category Package
+# catalog-ctan /macros/luatex/generic/lualibs
+# catalog-date 2010-09-08 12:09:58 +0200
+# catalog-license pd
+# catalog-version 0.95
 Name:		texlive-lualibs
 Version:	0.95
 Release:	1
@@ -63,6 +69,7 @@ independent of ConTeXt.
 #- source
 %doc %{_texmfdistdir}/source/luatex/lualibs/Makefile
 %doc %{_texmfdistdir}/source/luatex/lualibs/lualibs.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -73,3 +80,5 @@ independent of ConTeXt.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
