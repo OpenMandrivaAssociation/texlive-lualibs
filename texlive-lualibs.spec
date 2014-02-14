@@ -1,12 +1,12 @@
-# revision 31280
+# revision 32539
 # category Package
 # catalog-ctan /macros/luatex/generic/lualibs
-# catalog-date 2013-05-24 12:22:55 +0200
+# catalog-date 2014-01-01 13:26:44 +0100
 # catalog-license gpl2
-# catalog-version 2.0b
+# catalog-version 2.1a
 Name:		texlive-lualibs
-Version:	2.0b
-Release:	5
+Version:	2.1a
+Release:	1
 Summary:	Additional Lua functions for LuaTeX macro programmers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/generic/lualibs
@@ -44,6 +44,7 @@ independent of ConTeXt.
 %{_texmfdistdir}/tex/luatex/lualibs/lualibs-extended.lua
 %{_texmfdistdir}/tex/luatex/lualibs/lualibs-file.lua
 %{_texmfdistdir}/tex/luatex/lualibs/lualibs-function.lua
+%{_texmfdistdir}/tex/luatex/lualibs/lualibs-gzip.lua
 %{_texmfdistdir}/tex/luatex/lualibs/lualibs-io.lua
 %{_texmfdistdir}/tex/luatex/lualibs/lualibs-lpeg.lua
 %{_texmfdistdir}/tex/luatex/lualibs/lualibs-lua.lua
