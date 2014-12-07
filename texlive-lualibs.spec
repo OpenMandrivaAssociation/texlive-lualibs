@@ -6,7 +6,7 @@
 # catalog-version 2.1a
 Name:		texlive-lualibs
 Version:	2.1a
-Release:	4
+Release:	5
 Summary:	Additional Lua functions for LuaTeX macro programmers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/generic/lualibs
