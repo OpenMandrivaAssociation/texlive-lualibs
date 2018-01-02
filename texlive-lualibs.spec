@@ -1,12 +1,6 @@
-# revision 33861
-# category Package
-# catalog-ctan /macros/luatex/generic/lualibs
-# catalog-date 2014-02-26 23:03:13 +0100
-# catalog-license gpl2
-# catalog-version 2.1a
 Name:		texlive-lualibs
-Version:	2.1a
-Release:	6
+Version:	2.5
+Release:	1
 Summary:	Additional Lua functions for LuaTeX macro programmers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/generic/lualibs
@@ -35,50 +29,10 @@ independent of ConTeXt.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-basic-merged.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-basic.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-boolean.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-compat.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-dir.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-extended-merged.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-extended.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-file.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-function.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-gzip.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-io.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-lpeg.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-lua.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-math.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-md5.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-number.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-os.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-package.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-set.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-string.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-table.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-trac-inf.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-unicode.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-url.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-util-deb.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-util-dim.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-util-jsn.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-util-lua.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-util-prs.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-util-sta.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-util-sto.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-util-str.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-util-tab.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs-util-tpl.lua
-%{_texmfdistdir}/tex/luatex/lualibs/lualibs.lua
-%doc %{_texmfdistdir}/doc/luatex/lualibs/LICENSE
-%doc %{_texmfdistdir}/doc/luatex/lualibs/NEWS
-%doc %{_texmfdistdir}/doc/luatex/lualibs/README
-%doc %{_texmfdistdir}/doc/luatex/lualibs/lualibs.pdf
+%{_texmfdistdir}/tex/luatex/lualibs
+%doc %{_texmfdistdir}/doc/luatex/lualibs
 #- source
-%doc %{_texmfdistdir}/source/luatex/lualibs/Makefile
-%doc %{_texmfdistdir}/source/luatex/lualibs/lualibs.dtx
-%doc %{_texmfdistdir}/source/luatex/lualibs/test-lualibs.lua
-%doc %{_texmfdistdir}/source/luatex/lualibs/whatsnew.lua
+%doc %{_texmfdistdir}/source/luatex/lualibs
 
 #-----------------------------------------------------------------------
 %prep
