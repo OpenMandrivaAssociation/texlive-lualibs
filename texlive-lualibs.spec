@@ -1,6 +1,6 @@
 Name:		texlive-lualibs
-Version:	64615
-Release:	2
+Version:	67994
+Release:	1
 Summary:	Additional Lua functions for LuaTeX macro programmers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/generic/lualibs
