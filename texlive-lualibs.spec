@@ -3,7 +3,7 @@ Version:	67994
 Release:	1
 Summary:	Additional Lua functions for LuaTeX macro programmers
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/luatex/generic/lualibs
+URL:		https://www.ctan.org/tex-archive/macros/luatex/generic/lualibs
 License:	GPL2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualibs.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualibs.doc.r%{version}.tar.xz
